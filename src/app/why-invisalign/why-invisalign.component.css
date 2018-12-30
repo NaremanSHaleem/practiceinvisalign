@@ -1,0 +1,48 @@
+#fullwidth{
+    background-image: url("../../assets/images/Invisalign-Vs-Braces.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center ;
+    height: 100%; 
+    padding: 3% 0;
+}
+.container {
+    width: 68%;;
+}
+h2{
+    color: #353c3e;
+}
+h2,h3{
+    text-align: center;
+}
+h3{
+   color: #c8857f;
+}
+p{
+    text-align: center;
+}
+@media only screen and (max-width: 1500px){
+    .container {
+        width: 100%;;
+    }
+}
+/* .headline:after {
+    background: #a99f94;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 9%;
+    width: 24%;
+    left: 78%;
+}
+.headline:before {
+    background: #a99f94;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 9%;
+    width: 24%;
+    right: 78%;
+} */

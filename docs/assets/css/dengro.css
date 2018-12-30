@@ -1,0 +1,13 @@
+.dengro-hidden {
+    display: none !important;
+    margin: 0 !important;
+}
+
+.dengro-accordion-blue {
+    color: #ffffff;
+    background-color: #0073aa;
+}
+
+.dengro-card {
+    min-width: 1000px;
+}

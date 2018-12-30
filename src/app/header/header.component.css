@@ -1,0 +1,90 @@
+
+.headerContainer{
+    background-color: #69277f;
+    color:#383531!important;
+}
+
+h4, p, h3, a, i {
+    color:#fff!important;
+    
+}
+.headStrip > h4{
+    text-align: center;
+    color:#69277f!important;
+}
+.msgIcon{
+    font-size: 16px;
+}
+.mobileHeader{
+    background-color: #69277f;
+    max-width: none;
+
+}
+.headContainer{
+    transition: all 0.4s ease-in-out, background-position 1ms;
+}
+.fl-rich-text ,h4{
+    font-size: 21px;
+}
+.fixed{
+    position: fixed;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.fixed-header{
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.hide{
+    display: none
+}
+.smaller{
+    width: 70%!important;
+}
+.no-padding{
+    padding: 0!important;
+}
+
+.fl-node-59f05afba9006, headerContainer, .top-address, .header{
+    transition: all 0.4s ease-in-out, background-position 1ms;
+    -webkit-transition: all 0.4s ease-in-out, background-position 1ms;
+}
+
+.fl-builder-content img{
+    width: 100%;
+}
+
+.fl-rich-text, h4 {
+    color: #383531;
+}
+
+@media only screen and (max-width: 768px) {
+  .fl-photo-img-png{
+                width: 65%;
+  }
+h3, h4{
+    margin: 0;
+}
+.headContainer{
+    padding: 0;
+}
+.fl-builder-content img{
+width:90%;
+}
+}
+@media only screen and (max-width: 390px) {
+    .fl-rich-text{
+        font-size: 17px;
+    }
+    .fl-rich-text h4 {
+        font-size: 16px;
+    }
+}
+

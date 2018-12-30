@@ -1,0 +1,30 @@
+   
+h2{
+    color:#7b7d7d;
+}
+h5{
+    color: #3c3c3b;
+    margin-bottom: 5%;
+    margin-top: -12px;
+}
+h3{
+    color:  #7b7d7d;;
+}
+svg.pp-tilt-left{
+    fill: #363b3e;
+}
+/* 
+.fl-col-group-equal-height{
+    flex: 0;
+} */
+/* .fl-module-content{
+    margin: 20px 0 -20px 0 ;
+} */
+.fl-photo-content img{
+width: 100%;
+}
+@media screen and (max-width: 1350){
+    .profile-pic{
+        margin-top: -4%!important;
+    }
+}

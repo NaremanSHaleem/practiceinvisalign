@@ -1,0 +1,83 @@
+.wedding-comp{
+    padding: 4%;
+}
+h2{
+    color:#69277f;
+}
+.fl-row-fixed-width {
+    max-width: 70%;
+}
+p{
+    text-align: center;
+}
+.caption{
+    padding: 2% 8%;
+}
+.headline:after {
+    background: #69277f;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 9%;
+    width: 24%;
+    left: 78%;
+}
+.headline:before {
+    background: #69277f;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 9%;
+    width: 24%;
+    right: 78%;
+}
+@media only screen and (max-width: 770px){
+    .fl-row-fixed-width {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    .headline:before {
+        width: 20%;
+        right: 70%;
+    }
+    .headline:after {
+        width: 20%;
+        left: 70%;
+    }
+    .fl-row-fixed-width{
+        max-width: 88%;
+}
+}
+@media only screen and (max-width: 1119px){
+    .headline:before, .headline:after {
+       display: none;
+    }
+}
+@media only screen and (max-width: 1094px){
+    .headline:before {
+        width: 13%;
+        right: 86%;
+        top: 15%;
+    }
+    .headline:after {
+        width: 13%;
+        left: 86%;
+        top: 15%;
+    }
+}
+@media only screen and (max-width: 1766px){
+    .headline:before {
+        top: 8%;
+        width: 13%;
+        right: 83%;
+    }
+    .headline:after {
+        width: 13%;
+        left: 83%;
+        top: 8%;
+    }
+}

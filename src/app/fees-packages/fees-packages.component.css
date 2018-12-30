@@ -1,0 +1,108 @@
+
+.fl-row-fixed-width {
+    max-width: 60%;
+    margin-bottom: 5% ;
+    /* padding: 2%; */
+}
+.fl-row-content-wrap{
+    padding: 0;
+}
+.fl-row-content-wrap h2{
+    color: #69277f;
+    text-align: center;
+    
+    margin: 3% 0;
+}
+.headline:after {
+    background: #69277f;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    left: 65%;
+}
+.headline:before {
+    background: #69277f;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    right: 65%;
+}
+.package-wrapper{
+    border: solid 1px #69277f;
+    text-align: center;
+    border-radius: 1%;
+    margin-top: 2%;
+}
+.package-head{
+    background-color: #69277f;
+    border-bottom: solid 1px #69277f;
+    border-radius: 1% 0;
+}
+.package-head, .package-cost{
+    padding: 2% 2%;
+    text-align: center;
+}
+.package-head.head1 , .package-head.head2{
+    padding: 6% 2%;
+}
+.package-head h4, .package-head h6 {
+color: #fff;
+font-weight: 500;
+}
+.package-cost{
+    border-bottom: solid 1px #69277f;
+    padding: 7% 0;
+}
+.package-cost h3{
+    color: #69277f;
+    margin: 4%;
+}
+.package-cost h4{
+ color: #69277f;
+}
+.package-cost h4, .package-cost h3{
+    display: inline-block;
+}
+
+.package-features{
+    padding: 7%;
+}
+.package-features ul{
+    list-style: none;
+    line-height: 2.5;
+    font-size: 15px;
+    padding: 0;
+}
+.Book-div{
+    padding:5%  2%;
+}
+.Book-div button{
+    background-color: white;
+    color: #69277f;
+    border: solid 1px #69277f;
+}
+@media only screen and (max-width: 1500px){
+    .headline:before {
+        width: 20%;
+        right: 70%;
+    }
+    .headline:after {
+        width: 20%;
+        left: 70%;
+    }
+    .fl-row-fixed-width{
+        max-width: 88%;
+}
+}
+@media only screen and (max-width: 1119px){
+    .headline:before, .headline:after {
+       display: none;
+    }
+
+}

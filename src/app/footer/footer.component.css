@@ -1,0 +1,62 @@
+
+.fl-node-59f205ed1b99c > .fl-row-content-wrap, .fl-node-59f205ed1b882 > .fl-row-content-wrap {
+    background-color: #f0efeb;
+    color: #383531;
+    font-weight: 400;
+}
+.fl-builder-content .fl-node-59f205ed1b99c a{
+    color: #383531;
+    font-weight: 400;
+
+}
+.fl-rich-text h4, .fl-module-content.fl-node-content h3{
+    color: #383531;
+}
+.fl-node-59f205ed1ba61, .fl-node-59f205ed1ba22{
+    width:50%;
+}   
+.centered{
+    margin: 0 7%;
+}
+.pp-business-hours-content .pp-bh-row .pp-bh-title, .pp-business-hours-content .pp-bh-row .pp-bh-timing{
+    width: 40%;
+}
+
+@media screen and (max-width: 768px){
+    .centered{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .fl-row-content-wrap{
+        font-size: 17px;
+    }
+    .fl-col-small {
+        max-width: 73%;
+    }
+    .fl-col-small {
+        max-width: 93%;
+    }
+}
+@media screen and (max-width: 388px){
+.fl-row-content-wrap{
+    font-size: 15px;
+}
+}
+/* .fl-module-content{
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+.fl-photo{
+    text-align: center;
+    /* width:50%; 
+}
+.fl-photo  img{
+    width: 45%!important;
+}
+.fl-rich-text, .pp-business-hours-content.clearfix{
+    font-size: 15px;
+}
+h4{
+    font-size: 20px;
+}
+} */
